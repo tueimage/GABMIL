@@ -23,7 +23,7 @@ Global ABMIL (GABMIL) enhances Attention-Based Deep MIL (ABMIL) for whole slide 
 </p>
 
 <p align="left">
-  <img src="simm.png" alt="SIMM">
+  <img src="SIMM.png" alt="SIMM">
   <br>
   <em>Figure 2: (a) Illustration of the SIMM (BOTH configuration). Patch features are repositioned according to their original spatial arrangement. The BLOCK and GRID attention modules are then applied sequentially to integrate spatial information into the feature representations. (b) The BLOCK attention module captures spatial information within partitioned windows using a MLP layer. (c) The GRID attention module models spatial information within each partitioned grid using a MLP layer.</em>
 </p>
