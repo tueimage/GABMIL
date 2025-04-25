@@ -46,6 +46,7 @@ Global ABMIL (GABMIL) enhances Attention-Based Deep MIL (ABMIL) for whole slide 
 
 
 ## Acknowledgements
+We would like to thank the authors and contributors of the **MLP-Mixer** and **MaxViT** for their valuable work.
 
 
 ## Reference
@@ -54,15 +55,10 @@ Please consider citing the following paper if you find our work useful for your 
 
 
 ```
-@InProceedings{,
-  title = {},
-  author = {},
-  booktitle = {},
-  pages = {},
-  year = {2025},
-  volume = {},
-  series = {},
-  month = {},
-  publisher = {},
+@article{keshvarikhojasteh2025spatially,
+  title={A Spatially-Aware Multiple Instance Learning Framework for Digital Pathology},
+  author={Keshvarikhojasteh, Hassan and Tifrea, Mihail and Hess, Sibylle and Pluim, Josien P.W. and Veta, Mitko},
+  journal={arXiv preprint arXiv:2504.17379},
+  year={2025}
 }
 ```
