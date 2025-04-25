@@ -30,9 +30,10 @@ Global ABMIL (GABMIL) enhances Attention-Based Deep MIL (ABMIL) for whole slide 
 
 ## Results
 
-**Slide-Level Classification Evaluation on TCGA BRCA dataset using ImageNet pretrained ResNet50 to extract instance features.**  
-The values are reported as mean ± standard deviation. The best ones are in bold. The flops are measured with 120 instances per bag, and the instance feature extraction is not considered in the presented flops.
+<em>Table 1. Slide-Level Classification Evaluation on TCGA BRCA dataset using ImageNet pretrained ResNet50 to extract instance features. The values are reported as mean ± standard deviation. The best ones are in bold. The flops are measured with 120 instances per bag, and the instance feature extraction is not considered in the presented flops.<em>
 
+<div align="center">
+  
 | **Model**   | **AUC**         | **F1**          | **Recall**      | **Kappa**       | **AUPRC**       | **FLOPs** |
 |:------------|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------:|
 | ABMIL       | 0.88 ± 0.05     | 0.78 ± 0.06     | 0.78 ± 0.07     | 0.57 ± 0.12     | 0.67 ± 0.11     | 94M      |
@@ -41,6 +42,7 @@ The values are reported as mean ± standard deviation. The best ones are in bold
 | GRID_4      | 0.90 ± 0.04     | 0.79 ± 0.04     | 0.78 ± 0.05     | 0.59 ± 0.07     | 0.72 ± 0.10     | 94M      |
 | BOTH_4      | 0.89 ± 0.05     | 0.79 ± 0.08     | 0.78 ± 0.08     | 0.58 ± 0.16     | 0.71 ± 0.15     | 94M      |
 
+</div>
 
 
 ## Acknowledgements
